@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (asal.contains("--Silahkan Pilih--")) {
                 tvhasil.setText("Belum memilih Asal");
             } else {
-                tvhasil.setText("          Selamat Bergabung !!\n\n\n" +
+                tvhasil.setText("           Selamat Bergabung !!\n\n\n" +
                         "Nama : " + nama + "\n\nEmail: " + email + "\n\nNo HP: " + no + "\n\nUsername: " + user + "\n\nPassword: " + ltpas + "char" +
                         "\n\nJenis Kelamin: " + kelamin + "\n\n" + rekening + "\nAsal Kota: " + asal);
             }
