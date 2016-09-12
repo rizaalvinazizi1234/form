@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         String user = etuser.getText().toString();
         String pass = etpass.getText().toString();
 
+        int ltpas = pass.length();
         int startlen = rekening.length();
         if (cbBRI.isChecked()) rekening += cbBRI.getText() + "\n";
         if (cbBNI.isChecked()) rekening += cbBNI.getText() + "\n";
@@ -72,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
             } else if (asal.contains("--Silahkan Pilih--")) {
                 tvhasil.setText("Belum memilih Asal");
             } else {
-                tvhasil.setText("      Selamat Bergabung !!\n\n\n" +
-                        "Nama : " + nama + "\n\nEmail: " + email + "\n\nNo HP: " + no + "\n\nUsername: " + user + "\n\nPassword: " + pass +
+                tvhasil.setText("          Selamat Bergabung !!\n\n\n" +
+                        "Nama : " + nama + "\n\nEmail: " + email + "\n\nNo HP: " + no + "\n\nUsername: " + user + "\n\nPassword: " + ltpas + "char" +
                         "\n\nJenis Kelamin: " + kelamin + "\n\n" + rekening + "\nAsal Kota: " + asal);
             }
         }
