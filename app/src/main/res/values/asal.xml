@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Asal">
+        <item>--Silahkan Pilih--</item>
+        <item>Tulungagung</item>
+        <item>Blitar</item>
+        <item>Kediri</item>
+        <item>Trenggalek</item>
+        <item>Ponorogo</item>
+        <item>Jombang</item>
+        <item>Madiun</item>
+        <item>Ngawi</item>
+        <item>Malang</item>
+        <item>Mojokerto</item>
+        <item>Surabaya</item>
+    </string-array>
+</resources>

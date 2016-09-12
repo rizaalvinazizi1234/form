@@ -44,7 +44,7 @@
         android:text="User Id" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editTextUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -55,7 +55,7 @@
         android:text="Password" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -68,7 +68,7 @@
         android:text="Nama Lengkap" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editTextNama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -79,7 +79,7 @@
         android:text="Email" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -92,7 +92,7 @@
         android:text="No HP" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editTextNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -110,6 +110,7 @@
         android:orientation="horizontal">
 
         <RadioGroup
+            android:id="@+id/radioGroupKelamin"
             android:layout_width="332dp"
             android:layout_height="wrap_content">
 
@@ -143,21 +144,21 @@
         android:orientation="horizontal">
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkBoxBRI"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="BRI" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/checkBoxBNI"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="BNI" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBoxBCA"
             android:layout_width="114dp"
             android:layout_height="wrap_content"
             android:checked="false"
@@ -175,13 +176,22 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/Asal" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit" />
+        android:layout_gravity="center_horizontal"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textViewHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="Hasil" />
 
 </LinearLayout>
 </ScrollView>
