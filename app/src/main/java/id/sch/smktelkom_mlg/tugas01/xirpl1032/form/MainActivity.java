@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             etuser.setError("Username belum diisi");
             valid = false;
         } else if (user.length() < 4) {
-            etuser.setError("Nama minimal 4 karakter");
+            etuser.setError("Username minimal 4 karakter");
             valid = false;
         } else {
             etuser.setError(null);
@@ -126,8 +126,8 @@ public class MainActivity extends AppCompatActivity {
         if (pass.isEmpty()) {
             etpass.setError("Password belum diisi");
             valid = false;
-        } else if (nama.length() < 6) {
-            etpass.setError("Nama minimal 6 karakter");
+        } else if (pass.length() < 6) {
+            etpass.setError("Password minimal 6 karakter");
             valid = false;
         } else {
             etpass.setError(null);
