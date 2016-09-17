@@ -19,7 +19,7 @@ Deteksi kesalahan dalam project ini hanya apabila ada yang kosong
 ![Gambar5](https://github.com/rizaalvinazizi1234/form/blob/master/5.JPG)
 
 
-Link File apk : https://drive.google.com/file/d/0B_jpTr92heo2MHZza0JkUnFqMDA/view?usp=sharing
+Link File apk : https://drive.google.com/open?id=0B_jpTr92heo2NkFUcUNuRW0yckU
 
 
 
